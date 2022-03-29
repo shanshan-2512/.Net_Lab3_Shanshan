@@ -1,6 +1,8 @@
-namespace DotNet_Lab3_Shanshan.Models;
+
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+
+namespace DotNet_Lab3_Shanshan.Models;
 
 public class Product
 {
