@@ -21,5 +21,7 @@ public class User
     public string? City { get; set; }
     public string? Province { get; set; }
     public string? Phone { get; set; }
+    public string? FavouriteColor { get; set; }
+    public string? Constellation { get; set; }
 
 }

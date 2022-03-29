@@ -50,16 +50,17 @@
                 <input asp-for="UserInfo.Phone" class="form-control" />
                 <span asp-validation-for="UserInfo.Phone" class="text-danger"></span>
             </div>
-            @* <div class="form-group">
-                <label asp-for="Product.Price" class="control-label"></label>
-                <input asp-for="Product.Price" class="form-control" />
-                <span asp-validation-for="Product.Price" class="text-danger"></span>
-                </div>
-                <div class="form-group">
-                <label asp-for="Product.Stock" class="control-label"></label>
-                <input asp-for="Product.Stock" class="form-control" />
-                <span asp-validation-for="Product.Stock" class="text-danger"></span>
-                </div> *@
+            <div class="form-group">
+                <label asp-for="UserInfo.FavouriteColor" class="control-label"></label>
+                <input asp-for="UserInfo.FavouriteColor" class="form-control" />
+                <span asp-validation-for="UserInfo.FavouriteColor" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="UserInfo.Constellation" class="control-label"></label>
+                <input asp-for="UserInfo.Constellation" class="form-control" />
+                <span asp-validation-for="UserInfo.Constellation" class="text-danger"></span>
+            </div>
+
             <div class="form-group">
                 <input type="submit" value="Save" class="btn btn-primary" />
             </div>
